@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">        
+
+<tiles-definitions>
+	<!-- defining general master -->
+	<definition name="headerfooter.definition" template="/WEB-INF/jsp/headerfooter_master.jsp">
+		<put-attribute name="title" value="" />
+		 <put-attribute name="header" value="" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/jsp/footer.jsp" />
+	</definition>
+	
+	<!-- Sign In page in tiles  -->
+	<definition name="signin" extends="headerfooter.definition">
+		<put-attribute name="title" value="Sign In" />
+		<put-attribute name="body" value="/signin.jsp" />
+	</definition> 
+	
+	<!-- View Profile page in tiles  -->
+	<definition name="viewprofile" extends="headerfooter.definition">
+		<put-attribute name="title" value="Register" />
+		<put-attribute name="body" value="/viewprofile.jsp" />
+	</definition> 
+	
+	<!-- View Profile page in tiles  -->
+	<definition name="adminedit" extends="headerfooter.definition">
+		<put-attribute name="title" value="Register" />
+		<put-attribute name="body" value="/adminedit.jsp" />
+	</definition> 
+	
+	<!-- Register page in tiles  -->
+	<definition name="register" extends="headerfooter.definition">
+		<put-attribute name="title" value="Register" />
+		<put-attribute name="body" value="/register.jsp" />
+	</definition>
+	
+	<!-- Admin Home page in tiles  -->
+	<definition name="adminhome" extends="headerfooter.definition">
+		<put-attribute name="title" value="Register" />
+		<put-attribute name="body" value="/adminhome.jsp" />
+	</definition> 
+	
+	<!-- Change Password page in tiles  -->
+	<definition name="changepassword" extends="headerfooter.definition">
+		<put-attribute name="title" value="Change Password" />
+		<put-attribute name="body" value="/changepassword.jsp" />
+	</definition> 
+	
+	<!-- Apply for company page in tiles  -->
+	<definition name="applyforcompany" extends="headerfooter.definition">
+		<put-attribute name="title" value="Apply for Company" />
+		<put-attribute name="body" value="/applyforcompany.jsp" />
+	</definition>
+	
+	<!-- Registered Companies page in tiles  -->
+	<definition name="registeredcompanies" extends="headerfooter.definition">
+		<put-attribute name="title" value="Registered Company" />
+		<put-attribute name="body" value="/registeredcompanies.jsp" />
+	</definition> 
+	
+	
+	<!-- Registered Companies page in tiles  -->
+	<definition name="editcompany" extends="headerfooter.definition">
+		<put-attribute name="title" value="Edit Registered Company" />
+		<put-attribute name="body" value="/editcompany.jsp" />
+	</definition>
+	
+	<!-- Placed Student page in tiles  -->
+	<definition name="placedstudent" extends="headerfooter.definition">
+		<put-attribute name="title" value="Placed Student" />
+		<put-attribute name="body" value="/placedstudent.jsp" />
+	</definition>
+	
+	<!-- Scheduled Companies page in tiles  -->
+	<definition name="scheduledcompanies" extends="headerfooter.definition">
+		<put-attribute name="title" value="Placed Student" />
+		<put-attribute name="body" value="/scheduledcompanies.jsp" />
+	</definition> 
+	
+	<!-- Apply for company page in tiles  -->
+	<definition name="appliedstudenthome" extends="headerfooter.definition">
+		<put-attribute name="title" value="Apply for Company" />
+		<put-attribute name="body" value="/appliedstudenthome.jsp" />
+	</definition> 
+	
+	<!-- Add company page in tiles  -->
+	<definition name="addcompany" extends="headerfooter.definition">
+		<put-attribute name="title" value="Add Company" />
+		<put-attribute name="body" value="/addcompany.jsp" />
+	</definition> 
+	
+	<!-- Schedule company page in tiles  -->
+	<definition name="schedulecompany" extends="headerfooter.definition">
+		<put-attribute name="title" value="Schedule Company" />
+		<put-attribute name="body" value="/schedulecompany.jsp" />
+	</definition>
+	
+	<!-- TPO Home page in tiles  -->
+	<definition name="tpohome" extends="headerfooter.definition">
+		<put-attribute name="title" value="Schedule Company" />
+		<put-attribute name="body" value="/tpohome.jsp" />
+	</definition>
+	
+	<!-- Update Schedule company page in tiles  -->
+	<definition name="editschedulecompany" extends="headerfooter.definition">
+		<put-attribute name="title" value="Schedule Company" />
+		<put-attribute name="body" value="/editschedulecompany.jsp" />
+	</definition>
+	
+	<!-- Schedule company page in tiles  -->
+	<definition name="recruiters" extends="headerfooter.definition">
+		<put-attribute name="title" value="Recruiters list" />
+		<put-attribute name="body" value="/recruiters.jsp" />
+	</definition> 
+	
+	<!-- Student home page in tiles  -->
+	<definition name="studenthome" extends="headerfooter.definition">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body" value="/studenthome.jsp" />
+	</definition>
+	
+	<!-- All Student home page in tiles  -->
+	<definition name="allstudenthome" extends="headerfooter.definition">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body" value="/allstudenthome.jsp" />
+	</definition>
+	
+	<!-- Details page in tiles  -->
+	<definition name="detailsofschedulecompany" extends="headerfooter.definition">
+		<put-attribute name="title" value="Details of Schedule Company" />
+		<put-attribute name="body" value="/detailsofschedulecompany.jsp" />
+	</definition> 
+	
+	<!-- Home page in tiles  -->
+	<definition name="home" extends="headerfooter.definition">
+		<put-attribute name="title" value="Home" />
+		<put-attribute name="body" value="/home.jsp" />
+	</definition> 
+	
+	<!-- Contact page in tiles  -->
+	<definition name="contact" extends="headerfooter.definition">
+		<put-attribute name="title" value="Contact" />
+		<put-attribute name="body" value="/contact.jsp" />
+	</definition> 
+	
+	<!-- Edit Profile page in tiles  -->
+	<definition name="edit" extends="headerfooter.definition">
+		<put-attribute name="title" value="Edit" />
+		<put-attribute name="body" value="/edit.jsp" />
+	</definition> 
+	
+	<!-- Student page in tiles  -->
+	<definition name="student" extends="headerfooter.definition">
+		<put-attribute name="title" value="Student" />
+		<put-attribute name="body" value="/student.jsp" />
+	</definition> 
+	
+	
+	<!-- About Recruiters page in tiles  -->
+	<definition name="aboutrecruiters" extends="headerfooter.definition">
+		<put-attribute name="title" value="Recuiters" />
+		<put-attribute name="body" value="/aboutrecruiters.jsp" />
+	</definition> 
+	
+	<!-- Forgot Password page in tiles  -->
+	<definition name="forgotpassword" extends="headerfooter.definition">
+		<put-attribute name="title" value="Forgot Password" />
+		<put-attribute name="body" value="/forgotpassword.jsp" />
+	</definition> 
+	
+</tiles-definitions>
